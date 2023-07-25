@@ -1,23 +1,30 @@
 import { FC } from "react";
 import { Link } from "react-router-dom";
-
-import img from "../../assets/todopng.png";
+import { useUrl } from "../../utils/hooks";
 
 import "./index.css";
 
-const Project: FC = () => {
+interface IProps {
+  project: IProject;
+}
+
+const Project: FC<IProps> = ({ project }) => {
+  const { id, name, img } = project;
+
+  const imgLink = useUrl(img);
+
   return (
     <Link
-      to="/project/1"
-      className="project lg:w-[30%] bg-white text-black border cursor-pointer  hover:shadow-md"
+      to={`/project/${id}`}
+      className="project lg:w-[32%] bg-white text-black cursor-pointer  hover:shadow-md"
     >
-      <>
-        <div className="screenshot border-b">
-          <img src={img} alt="" />
+      <div>
+        <div className="screenshot h-[300px]">
+          <img className="w-full h-full object-cover" src={imgLink} alt="" />
         </div>
 
-        <div className="description p-4">Description</div>
-      </>
+        <div className="bg-gray-900 text-white description p-4">{name}</div>
+      </div>
     </Link>
   );
 };
