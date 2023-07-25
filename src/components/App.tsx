@@ -1,6 +1,6 @@
 import { FC } from "react";
-import Header from "./components/header/Header";
-import Project from "./components/project/Project";
+import Header from "./header/Header";
+import Project from "./project/Project";
 
 const App: FC = () => {
   return (
