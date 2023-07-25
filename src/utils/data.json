@@ -1,0 +1,94 @@
+{
+  "projects": [
+    {
+      "id": 1,
+      "name": "TODO Приложение",
+      "description": "Одно из моих первых приложений на React. Очень простой проект, да. Но это моя история. Жаль, что GitHub репозиторий удалён. Приложение осталось развернутым на хостинге.",
+      "img": "todopng.png",
+      "gh_link": "",
+      "live_link": "https://todo-9l41.onrender.com",
+      "stack": ["React", "React Bootstrap", "React Router"]
+    },
+    {
+      "id": 2,
+      "name": "Сайт Компании Cuda",
+      "description": "Первые начинания в вёрстке. Использовал нативный JS + HTML и SCSS. Сайт адаптивен и на мобильных устройствах смотрися приемлемо",
+      "img": "cuda.png",
+      "gh_link": "https://github.com/Dunissimo/check/tree/main",
+      "live_link": "https://check-16kk.onrender.com",
+      "stack": ["HTML", "SCSS", "Native JS"]
+    },
+    {
+      "id": 3,
+      "name": "Сайт фрилансера",
+      "description": "Лендинг поинтереснее. Тажке полностью адаптивен, но присутствуют базовые анимации.",
+      "img": "freelancer.png",
+      "gh_link": "https://github.com/Dunissimo/Freelancer-Portfolio/tree/main",
+      "live_link": "https://freelance-portfolio.onrender.com",
+      "stack": ["HTML", "CSS", "Native JS"]
+    },
+    {
+      "id": 4,
+      "name": "Панель соц. сетей",
+      "description": "Статичный сайт с фейковыми данными. Есть переключение темы (темная/светлая). Макет и ТЗ взял с сайта Frontend Mentor.",
+      "img": "social.png",
+      "gh_link": "https://github.com/Dunissimo/Social-Media_Frontend-Mentor/tree/main",
+      "live_link": "https://social-media-wl1w.onrender.com",
+      "stack": ["HTML", "SCSS", "Native JS"]
+    },
+    {
+      "id": 5,
+      "name": "Сервис для сокращения ссылок",
+      "description": "Есть взаимодействие с API. Практика TS. Макет и ТЗ взял с сайта Frontend Mentor.",
+      "img": "short.png",
+      "gh_link": "https://github.com/Dunissimo/url-shortening/tree/main",
+      "live_link": "https://shortening.onrender.com/",
+      "stack": ["React", "TypeScript", "SCSS"]
+    },
+    {
+      "id": 6,
+      "name": "Список вакансий",
+      "description": "Есть фильтрация по тегам. Макет и ТЗ взял с сайта Frontend Mentor.",
+      "img": "jobs.png",
+      "gh_link": "https://github.com/Dunissimo/Job-Listing_Frontend-Mentor/tree/main",
+      "live_link": "https://job-listings.onrender.com",
+      "stack": ["React", "CSS"]
+    },
+    {
+      "id": 7,
+      "name": "Калькулятор-конструктор",
+      "description": "Можно собрать свой калькулятор из доступных модулей. Делал как тестовое задание для одной компании.",
+      "img": "dnd.png",
+      "gh_link": "https://github.com/Dunissimo/DnD-Calculator/tree/main",
+      "live_link": "https://dnd-calculator.onrender.com",
+      "stack": ["React", "Tailwind", "Redux", "TypeScript", "Vite"]
+    },
+    {
+      "id": 8,
+      "name": "Сайт компании Createx",
+      "description": "По моему мнению, этот проект - самый лучший из всего, что я делал. Большой многостраничный сайт, больше всего логики и данных. Но есть проблемы с производительностью, а также пара моментов меня не устраивает. До сессии занимался переписыванием. Даже хотел выбрать его как мой дипломный проект, но объем был слишком большим.",
+      "img": "createx.png",
+      "gh_link": "https://github.com/Dunissimo/createx-company/tree/main",
+      "live_link": "https://createx.onrender.com/",
+      "stack": ["React", "Tailwind", "Redux", "TypeScript"]
+    },
+    {
+      "id": 9,
+      "name": "TODO со сменой темы и DnD",
+      "description": "Макет и ТЗ взял с сайта Frontend Mentor.",
+      "img": "todovite.png",
+      "gh_link": "https://github.com/Dunissimo/todoList-vite-react-ts/tree/main",
+      "live_link": "https://todolist-with-vite.onrender.com/",
+      "stack": ["React", "React Context", "TypeScript", "Vite", "SCSS"]
+    },
+    {
+      "id": 10,
+      "name": "Redux Practice",
+      "description": "Просто учебный проект для ознакомления с Redux. Взаимодействие с API",
+      "img": "redux.png",
+      "gh_link": "https://github.com/Dunissimo/Redux_Learning/tree/main",
+      "live_link": "https://redux-learning-project.onrender.com/",
+      "stack": ["React", "Redux", "Tailwind"]
+    }
+  ]
+}
