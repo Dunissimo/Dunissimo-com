@@ -1,22 +1,19 @@
 import { FC } from "react";
 import Header from "./header/Header";
 import Project from "./project/Project";
+import { Route, Routes } from "react-router-dom";
+import Home from "../pages/Home";
+import ProjectPage from "./project-page/ProjectPage";
 
 const App: FC = () => {
   return (
     <>
       <Header />
 
-      <div className="projects-list mt-8">
-        <div className="container flex flex-col lg:flex-row justify-between flex-wrap items-center gap-4">
-          <Project />
-          <Project />
-          <Project />
-          <Project />
-          <Project />
-          <Project />
-        </div>
-      </div>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/project/:id" element={<ProjectPage />} />
+      </Routes>
     </>
   );
 };
