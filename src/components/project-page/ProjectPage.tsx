@@ -42,12 +42,16 @@ const ProjectPage: FC = () => {
           <img src={img} alt="" />
         </div>
         <p className="max-w-[50%] mx-auto my-4 text-xl">{description}</p>
-        <a
-          href={gh_link ? gh_link : location.pathname}
-          className="text-blue-500 hover:underline"
-        >
-          Ссылка на GitHub
-        </a>{" "}
+        {gh_link ? (
+          <a
+            href={gh_link ? gh_link : location.pathname}
+            className="text-blue-500 hover:underline"
+          >
+            Ссылка на GitHub
+          </a>
+        ) : (
+          ""
+        )}
         <br />
         <a href={live_link} className="text-blue-500 hover:underline">
           Ссылка для просмотра
