@@ -1,17 +1,17 @@
 import { FC } from "react";
+import { Link } from "react-router-dom";
 
 import gh from "../../assets/logo/gh.svg";
 import tg from "../../assets/logo/tg.svg";
 import vk from "../../assets/logo/vk.svg";
-import { Link } from "react-router-dom";
 
 import "./index.css";
 
 const Header: FC = () => {
   return (
     <header className="header py-4">
-      <div className="container">
-        <h1 className="text-center mb-4 lg:mb-0 lg:w-[15%] text-3xl font-bold">
+      <div className="container lg:flex">
+        <h1 className="text-center mb-4 lg:mb-0 lg:w-[25%] lg:mr-4 text-3xl font-bold">
           Мои проекты
         </h1>
 

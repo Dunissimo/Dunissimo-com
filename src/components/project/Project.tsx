@@ -16,7 +16,7 @@ const Project: FC<IProps> = ({ project }) => {
   return (
     <Link
       to={`/project/${id}`}
-      className="project lg:w-[32%] bg-white text-black cursor-pointer  hover:shadow-md"
+      className="project w-[100%] lg:w-[32%] bg-white text-black cursor-pointer  hover:shadow-md"
     >
       <div>
         <div className="screenshot h-[300px]">

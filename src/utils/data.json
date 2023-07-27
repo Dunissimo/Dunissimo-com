@@ -82,7 +82,7 @@
     },
     {
       "id": 9,
-      "name": "TODO со сменой темы и DnD",
+      "name": "TODO со сменой темы и изменением порядка записей",
       "description": "Макет и ТЗ взял с сайта Frontend Mentor.",
       "img": "todovite.png",
       "gh_link": "https://github.com/Dunissimo/todoList-vite-react-ts/tree/main",
