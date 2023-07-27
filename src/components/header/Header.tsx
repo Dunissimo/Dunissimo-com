@@ -6,7 +6,6 @@ import vk from "../../assets/logo/vk.svg";
 import { Link } from "react-router-dom";
 
 import "./index.css";
-import MobileMenu from "../mobile-menu/MobileMenu";
 
 const Header: FC = () => {
   return (
