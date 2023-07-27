@@ -10,7 +10,7 @@ const Home: FC = () => {
           {data.projects
             .sort((a, b) => b.rating - a.rating)
             .map((project: IProject) => (
-              <Project project={project} />
+              <Project key={project.id} project={project} />
             ))}
         </div>
       </div>
