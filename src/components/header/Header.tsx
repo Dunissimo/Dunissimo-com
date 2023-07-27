@@ -11,10 +11,12 @@ import MobileMenu from "../mobile-menu/MobileMenu";
 const Header: FC = () => {
   return (
     <header className="header py-4">
-      <div className="container flex justify-between items-center">
-        <h1 className="lg:w-[15%] text-3xl font-bold">Мои проекты</h1>
+      <div className="container">
+        <h1 className="text-center mb-4 lg:mb-0 lg:w-[15%] text-3xl font-bold">
+          Мои проекты
+        </h1>
 
-        <div className="w-[85%] desktop-menu hidden lg:flex items-center justify-between">
+        <div className="w-[85%] desktop-menu mx-auto flex items-center justify-between">
           <nav>
             <ul className="flex gap-4">
               <li className="list-none text-white hover:text-gray-400">
@@ -65,8 +67,6 @@ const Header: FC = () => {
             </li>
           </ul>
         </div>
-
-        <MobileMenu />
       </div>
     </header>
   );
