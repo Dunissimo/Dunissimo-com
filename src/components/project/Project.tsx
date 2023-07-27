@@ -1,6 +1,7 @@
 import { FC } from "react";
 import { Link } from "react-router-dom";
 import { useUrl } from "../../utils/hooks";
+import { IProject } from "../../utils/interfaces";
 
 interface IProps {
   project: IProject;
