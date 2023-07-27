@@ -6,4 +6,5 @@ interface IProject {
   gh_link: string;
   live_link: string;
   stack: string[];
+  rating: number;
 }

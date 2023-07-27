@@ -7,7 +7,8 @@
       "img": "todopng.png",
       "gh_link": "",
       "live_link": "https://todo-9l41.onrender.com",
-      "stack": ["React", "React Bootstrap", "React Router"]
+      "stack": ["React", "React Bootstrap", "React Router"],
+      "rating": 2
     },
     {
       "id": 2,
@@ -16,7 +17,8 @@
       "img": "cuda.png",
       "gh_link": "https://github.com/Dunissimo/check/tree/main",
       "live_link": "https://check-16kk.onrender.com",
-      "stack": ["HTML", "SCSS", "Native JS"]
+      "stack": ["HTML", "SCSS", "Native JS"],
+      "rating": 1
     },
     {
       "id": 3,
@@ -25,7 +27,8 @@
       "img": "freelancer.png",
       "gh_link": "https://github.com/Dunissimo/Freelancer-Portfolio/tree/main",
       "live_link": "https://freelance-portfolio.onrender.com",
-      "stack": ["HTML", "CSS", "Native JS"]
+      "stack": ["HTML", "CSS", "Native JS"],
+      "rating": 4
     },
     {
       "id": 4,
@@ -34,7 +37,8 @@
       "img": "social.png",
       "gh_link": "https://github.com/Dunissimo/Social-Media_Frontend-Mentor/tree/main",
       "live_link": "https://social-media-wl1w.onrender.com",
-      "stack": ["HTML", "SCSS", "Native JS"]
+      "stack": ["HTML", "SCSS", "Native JS"],
+      "rating": 3
     },
     {
       "id": 5,
@@ -43,7 +47,8 @@
       "img": "short.png",
       "gh_link": "https://github.com/Dunissimo/url-shortening/tree/main",
       "live_link": "https://shortening.onrender.com/",
-      "stack": ["React", "TypeScript", "SCSS"]
+      "stack": ["React", "TypeScript", "SCSS"],
+      "rating": 4
     },
     {
       "id": 6,
@@ -52,7 +57,8 @@
       "img": "jobs.png",
       "gh_link": "https://github.com/Dunissimo/Job-Listing_Frontend-Mentor/tree/main",
       "live_link": "https://job-listings.onrender.com",
-      "stack": ["React", "CSS"]
+      "stack": ["React", "CSS"],
+      "rating": 3
     },
     {
       "id": 7,
@@ -61,7 +67,8 @@
       "img": "dnd.png",
       "gh_link": "https://github.com/Dunissimo/DnD-Calculator/tree/main",
       "live_link": "https://dnd-calculator.onrender.com",
-      "stack": ["React", "Tailwind", "Redux", "TypeScript", "Vite"]
+      "stack": ["React", "Tailwind", "Redux", "TypeScript", "Vite"],
+      "rating": 4
     },
     {
       "id": 8,
@@ -70,7 +77,8 @@
       "img": "createx.png",
       "gh_link": "https://github.com/Dunissimo/createx-company/tree/main",
       "live_link": "https://createx.onrender.com/",
-      "stack": ["React", "Tailwind", "Redux", "TypeScript"]
+      "stack": ["React", "Tailwind", "Redux", "TypeScript"],
+      "rating": 5
     },
     {
       "id": 9,
@@ -79,7 +87,8 @@
       "img": "todovite.png",
       "gh_link": "https://github.com/Dunissimo/todoList-vite-react-ts/tree/main",
       "live_link": "https://todolist-with-vite.onrender.com/",
-      "stack": ["React", "React Context", "TypeScript", "Vite", "SCSS"]
+      "stack": ["React", "React Context", "TypeScript", "Vite", "SCSS"],
+      "rating": 4
     },
     {
       "id": 10,
@@ -88,7 +97,8 @@
       "img": "redux.png",
       "gh_link": "https://github.com/Dunissimo/Redux_Learning/tree/main",
       "live_link": "https://redux-learning-project.onrender.com/",
-      "stack": ["React", "Redux", "Tailwind"]
+      "stack": ["React", "Redux", "Tailwind"],
+      "rating": 3.5
     }
   ]
 }
