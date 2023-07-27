@@ -1,6 +1,7 @@
 import { FC } from "react";
 import Project from "../components/project/Project";
 import data from "../utils/data.json";
+import { IProject } from "../utils/interfaces";
 
 const Home: FC = () => {
   return (
