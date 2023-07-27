@@ -7,9 +7,11 @@ const Home: FC = () => {
     <>
       <div className="projects-list mt-8">
         <div className="container flex flex-col lg:flex-row justify-between flex-wrap items-center gap-4">
-          {data.projects.map((project: IProject) => (
-            <Project project={project} />
-          ))}
+          {data.projects
+            .sort((a, b) => b.rating - a.rating)
+            .map((project: IProject) => (
+              <Project project={project} />
+            ))}
         </div>
       </div>
     </>

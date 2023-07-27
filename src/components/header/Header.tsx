@@ -29,8 +29,9 @@ const Header: FC = () => {
               <img
                 className="transition-all hover:scale-105"
                 width={35}
+                title="Мой гитхаб"
                 src={gh}
-                alt=""
+                alt="Мой гитхаб"
               />
             </a>
           </li>
@@ -40,8 +41,9 @@ const Header: FC = () => {
               <img
                 className="transition-all hover:scale-105"
                 width={35}
+                title="Моя телега"
                 src={tg}
-                alt=""
+                alt="Моя телега"
               />
             </a>
           </li>
@@ -51,8 +53,9 @@ const Header: FC = () => {
               <img
                 className="transition-all hover:scale-105"
                 width={35}
+                title="Мой вк"
                 src={vk}
-                alt=""
+                alt="Мой вк"
               />
             </a>
           </li>
