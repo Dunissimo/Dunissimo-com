@@ -2,8 +2,6 @@ import { FC } from "react";
 import { Link } from "react-router-dom";
 import { useUrl } from "../../utils/hooks";
 
-import "./index.css";
-
 interface IProps {
   project: IProject;
 }
@@ -16,7 +14,7 @@ const Project: FC<IProps> = ({ project }) => {
   return (
     <Link
       to={`/project/${id}`}
-      className="project w-[100%] lg:w-[32%] bg-white text-black cursor-pointer  hover:shadow-md"
+      className="project w-[100%] lg:w-[32%] bg-white text-black cursor-pointer transition-all shadow-project hover:scale-105 hover:shadow-md"
     >
       <div>
         <div className="screenshot h-[300px]">

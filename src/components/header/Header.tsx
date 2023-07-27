@@ -5,13 +5,11 @@ import gh from "../../assets/logo/gh.svg";
 import tg from "../../assets/logo/tg.svg";
 import vk from "../../assets/logo/vk.svg";
 
-import "./index.css";
-
 const Header: FC = () => {
   return (
-    <header className="header py-4">
+    <header className="header py-4 shadow-header">
       <div className="container lg:flex">
-        <h1 className="text-center mb-4 lg:mb-0 lg:w-[25%] lg:mr-4 text-3xl font-bold">
+        <h1 className="text-center mb-4 lg:mb-0 w-auto lg:max-w-[25%] lg:mr-4 text-3xl font-bold">
           Мои проекты
         </h1>
 
