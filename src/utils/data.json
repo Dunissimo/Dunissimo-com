@@ -99,6 +99,16 @@
       "live_link": "https://redux-learning-project.onrender.com/",
       "stack": ["React", "Redux", "Tailwind"],
       "rating": 3.5
+    },
+    {
+      "id": 11,
+      "name": "Калькулятор чаевых",
+      "description": "Макет и ТЗ взял с сайта Frontend Mentor.",
+      "img": "calc.png",
+      "gh_link": "https://github.com/Dunissimo/Tip-calc_Frontend-Mentor",
+      "live_link": "https://dunissimo.github.io/Tip-calc_Frontend-Mentor/",
+      "stack": ["HTML", "SCSS", "JS"],
+      "rating": 3
     }
   ]
 }

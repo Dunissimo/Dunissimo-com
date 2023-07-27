@@ -35,7 +35,7 @@ const ProjectPage: FC = () => {
         </div>
         <div className="my-4 flex justify-center gap-4 flex-wrap">
           {stack.map((item) => (
-            <Stack stackItem={item} />
+            <Stack>{item}</Stack>
           ))}
         </div>
         <div className="flex justify-center my-4">

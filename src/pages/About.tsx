@@ -1,10 +1,55 @@
 import { FC } from "react";
 
 import img from "../assets/me.jpg";
+import Stack from "../components/stack/Stack";
 
 const About: FC = () => {
   return (
     <div className="mx-4 lg:mx-auto lg:w-2/3 container pt-8 font-text">
+      <div className="">
+        <h2 className="font-bold text-2xl mb-6">Кратко:</h2>
+
+        <div className="mb-4">
+          <label htmlFor="age" className="text-xl mr-2">
+            Возраст:
+          </label>
+          <span id="age" className="text-lg">
+            17 лет
+          </span>
+        </div>
+
+        <div className="mb-4">
+          <label htmlFor="age" className="text-xl mr-2">
+            Опыт:
+          </label>
+          <span id="age" className="text-lg">
+            2 года (пару месяцев коммерческого)
+          </span>
+        </div>
+
+        <div className="flex flex-wrap gap-4 mb-12 lg:mb-4">
+          <label className="text-xl self-end">Мой стек: </label>
+          {["HTML + CSS (SCSS)", "JS & TS", "React + Redux (RTK)"].map(
+            (stack) => (
+              <Stack>{stack}</Stack>
+            )
+          )}
+        </div>
+        <div className="flex flex-wrap gap-4 mb-12">
+          <label className="text-xl self-end">Дополнительно: </label>
+          {[
+            "Linux",
+            "NodeJS",
+            "MongoDB & PostgreSQL",
+            "UI библиотеки",
+            "Git & GitHub",
+            "Дополнительные библиотеки (chart.js и тд)",
+          ].map((stack) => (
+            <Stack>{stack}</Stack>
+          ))}
+        </div>
+      </div>
+
       <div className="mb-8 lg:mb-0 lg:w-1/3 pl-4 lg:float-right flex flex-col justify-center items-center">
         <img src={img} alt="" className="max-h-[500px]" />
         <p className="text-center mt-4 opacity-75">
@@ -97,7 +142,25 @@ const About: FC = () => {
           дальше уже сложно.
         </p>
 
+        <h2 className="font-bold text-xl my-6">Доп. опыт</h2>
+        <p className="mt-4">
+          Пробовал себя в backend. Ведь иметь сайт, который ты полностью сделал
+          сам, намного круче, чем если просто взять готовый API и написать под
+          него frontend. Учил nodeJS и express (база). Использовал ORM
+          (sequelize, mongoose). Пытался в работу с сокетами.
+        </p>
+
+        <p className="mt-4">
+          Также немного изучал Electron, но пока совсем недалеко ушел.
+        </p>
+
         <h2 className="font-bold text-xl my-6">Итог</h2>
+        <p className="mt-4">
+          Мне еще предстоит много чего выучить. То же тестирование
+          веб-приложений, концепции и подходы, проектирование, архитектура.
+          Постепенно до всего этого дойду.
+        </p>
+
         <p className="mt-4">
           Много текста вышло, но зато всё искренне. Буду рад оценке моего
           "сайта-портфолио", особенно по части дизайна. А также наконец уже

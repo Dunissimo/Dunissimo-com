@@ -1,11 +1,11 @@
-import { FC } from "react";
+import { FC, ReactNode } from "react";
 
 interface IProps {
-  stackItem: string;
+  children: ReactNode;
 }
 
-const Stack: FC<IProps> = ({ stackItem }) => {
-  return <span className="bg-green-500 px-6 py-1 rounded">{stackItem}</span>;
+const Stack: FC<IProps> = ({ children }) => {
+  return <span className="bg-green-500 px-6 py-1 rounded">{children}</span>;
 };
 
 export default Stack;
