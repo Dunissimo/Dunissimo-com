@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&family=Source+Code+Pro:wght@400;700&display=swap");
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -5,6 +6,7 @@
 /* Common styles */
 
 body {
+  font-family: "Source Code Pro", monospace;
   background: #332c2c;
   color: #fff;
   padding-bottom: 2rem;

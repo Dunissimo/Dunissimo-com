@@ -24,7 +24,7 @@ const ProjectPage: FC = () => {
     <>
       <div className="container text-center pt-8">
         <div className="flex items-start justify-center gap-4">
-          <h2 className="text-4xl font-bold">{name}</h2>
+          <h2 className="text-xl lg:text-4xl font-bold">{name}</h2>
           <img
             src={back}
             width={30}
@@ -33,7 +33,7 @@ const ProjectPage: FC = () => {
             onClick={clickHandler}
           />
         </div>
-        <div className="my-4 flex justify-center gap-4">
+        <div className="my-4 flex justify-center gap-4 flex-wrap">
           {stack.map((item) => (
             <Stack stackItem={item} />
           ))}
@@ -41,7 +41,7 @@ const ProjectPage: FC = () => {
         <div className="flex justify-center my-4">
           <img src={img} alt="" />
         </div>
-        <p className="max-w-[50%] mx-auto my-4 text-xl">{description}</p>
+        <p className="lg:max-w-[50%] mx-auto my-4 text-xl">{description}</p>
         {gh_link ? (
           <a
             href={gh_link ? gh_link : location.pathname}

@@ -4,7 +4,7 @@ import img from "../assets/me.jpg";
 
 const About: FC = () => {
   return (
-    <div className="mx-4 lg:mx-auto lg:w-2/3 container pt-8">
+    <div className="mx-4 lg:mx-auto lg:w-2/3 container pt-8 font-text">
       <div className="mb-8 lg:mb-0 lg:w-1/3 pl-4 lg:float-right flex flex-col justify-center items-center">
         <img src={img} alt="" className="max-h-[500px]" />
         <p className="text-center mt-4 opacity-75">
