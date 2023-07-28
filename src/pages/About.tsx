@@ -30,8 +30,8 @@ const About: FC = () => {
         <div className="flex flex-wrap gap-4 mb-12 lg:mb-4">
           <label className="text-xl self-end">Мой стек: </label>
           {["HTML + CSS (SCSS)", "JS & TS", "React + Redux (RTK)"].map(
-            (stack) => (
-              <Stack>{stack}</Stack>
+            (stack, id) => (
+              <Stack key={id}>{stack}</Stack>
             )
           )}
         </div>
@@ -44,8 +44,8 @@ const About: FC = () => {
             "UI библиотеки",
             "Git & GitHub",
             "Дополнительные библиотеки (chart.js и тд)",
-          ].map((stack) => (
-            <Stack>{stack}</Stack>
+          ].map((stack, id) => (
+            <Stack key={id}>{stack}</Stack>
           ))}
         </div>
       </div>

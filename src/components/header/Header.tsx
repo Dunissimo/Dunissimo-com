@@ -9,7 +9,7 @@ const Header: FC = () => {
   return (
     <header className="header py-4 shadow-header">
       <div className="container lg:flex">
-        <h1 className="text-center mb-4 lg:mb-0 w-auto lg:max-w-[25%] lg:mr-4 text-3xl font-bold">
+        <h1 className="text-center mb-4 lg:mb-0 w-auto min-w-[250px] lg:max-w-[25%] lg:mr-4 text-3xl font-bold">
           Мои проекты
         </h1>
 
