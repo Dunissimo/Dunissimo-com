@@ -5,7 +5,7 @@ import Stack from "../components/stack/Stack";
 
 const About: FC = () => {
   return (
-    <div className="mx-4 lg:mx-auto lg:w-2/3 container pt-8 font-text">
+    <div className="container px-6 pt-8 font-text">
       <div className="">
         <h2 className="font-bold text-2xl mb-6">Кратко:</h2>
 
@@ -29,21 +29,22 @@ const About: FC = () => {
 
         <div className="flex flex-wrap gap-4 mb-12 lg:mb-4">
           <label className="text-xl self-end">Мой стек: </label>
-          {["HTML + CSS (SCSS)", "JS & TS", "React + Redux (RTK)"].map(
+          {["JS & TS", "React", "Redux (или Mobx, Zustand)"].map(
             (stack, id) => (
               <Stack key={id}>{stack}</Stack>
             )
           )}
         </div>
         <div className="flex flex-wrap gap-4 mb-12">
-          <label className="text-xl self-end">Дополнительно: </label>
+          <label className="text-xl self-end">Также работал с: </label>
           {[
-            "Linux",
-            "NodeJS",
-            "MongoDB & PostgreSQL",
-            "UI библиотеки",
             "Git & GitHub",
             "Дополнительные библиотеки (chart.js и тд)",
+            "UI библиотеки",
+            "NodeJS",
+            "MongoDB & PostgreSQL",
+            "Docker (основы)",
+            "Linux",
           ].map((stack, id) => (
             <Stack key={id}>{stack}</Stack>
           ))}

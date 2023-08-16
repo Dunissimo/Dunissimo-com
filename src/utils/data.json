@@ -23,7 +23,7 @@
     {
       "id": 3,
       "name": "Сайт фрилансера",
-      "description": "Лендинг поинтереснее. Тажке полностью адаптивен, но присутствуют базовые анимации.",
+      "description": "Еще один лендинг. Ключевая особенность - анимации появления блоков.",
       "img": "freelancer.png",
       "gh_link": "https://github.com/Dunissimo/Freelancer-Portfolio/tree/main",
       "live_link": "https://freelance-portfolio.onrender.com",
@@ -43,7 +43,7 @@
     {
       "id": 5,
       "name": "Сервис для сокращения ссылок",
-      "description": "Есть взаимодействие с API. Практика TS. Макет и ТЗ взял с сайта Frontend Mentor.",
+      "description": "Непростой сайт. Он должен быть многостраничным, но в макете была только главная страница. Взаимодействие с API для сокращения введенных ссылок. Первое знакомство с Typescript. Макет и ТЗ взяты с Frontend Mentor",
       "img": "short.png",
       "gh_link": "https://github.com/Dunissimo/url-shortening/tree/main",
       "live_link": "https://shortening.onrender.com/",
@@ -53,7 +53,7 @@
     {
       "id": 6,
       "name": "Список вакансий",
-      "description": "Есть фильтрация по тегам. Макет и ТЗ взял с сайта Frontend Mentor.",
+      "description": "Особенности: возможность помечать вакансии метками 'New' и 'Featured'. Только это указывается в json'e с данными; фильтрация по тегам, это уже можно делать на самом сайте. Макет и ТЗ взял с сайта Frontend Mentor.",
       "img": "jobs.png",
       "gh_link": "https://github.com/Dunissimo/Job-Listing_Frontend-Mentor/tree/main",
       "live_link": "https://job-listings.onrender.com",
@@ -73,7 +73,7 @@
     {
       "id": 8,
       "name": "Сайт компании Createx",
-      "description": "По моему мнению, этот проект - самый лучший из всего, что я делал. Большой многостраничный сайт, больше всего логики и данных. Но есть проблемы с производительностью, а также пара моментов меня не устраивает. До сессии занимался переписыванием. Даже хотел выбрать его как мой дипломный проект, но объем был слишком большим.",
+      "description": "По моему мнению, этот проект - самый лучший из всего, что я делал. Большой многостраничный сайт, больше всего логики и данных. Но есть проблемы с производительностью, а также пара моментов меня не устраивает. До сессии занимался переписыванием. Даже хотел выбрать его как мой дипломный проект, но объем был слишком большим и пришлось взять другой свой сайт.",
       "img": "createx.png",
       "gh_link": "https://github.com/Dunissimo/createx-company/tree/main",
       "live_link": "https://createx.onrender.com/",
@@ -83,7 +83,7 @@
     {
       "id": 9,
       "name": "TODO со сменой темы и изменением порядка записей",
-      "description": "Макет и ТЗ взял с сайта Frontend Mentor.",
+      "description": "Изначально этот сайт был просто практикой. Но в итоге я взял его для проекта для колледжа. Стандартный список дел, но со сменой темы и реализованным Drag n Drop. Макет и ТЗ взял с сайта Frontend Mentor.",
       "img": "todovite.png",
       "gh_link": "https://github.com/Dunissimo/todoList-vite-react-ts/tree/main",
       "live_link": "https://todolist-with-vite.onrender.com/",
@@ -93,7 +93,7 @@
     {
       "id": 10,
       "name": "Redux Practice",
-      "description": "Просто учебный проект для ознакомления с Redux. Взаимодействие с API",
+      "description": "Просто учебный проект для практики с Redux. Взаимодействие с API",
       "img": "redux.png",
       "gh_link": "https://github.com/Dunissimo/Redux_Learning/tree/main",
       "live_link": "https://redux-learning-project.onrender.com/",
