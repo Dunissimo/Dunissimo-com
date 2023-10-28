@@ -38,10 +38,10 @@ const ProjectPage: FC = () => {
             <Stack key={id}>{item}</Stack>
           ))}
         </div>
-        <div className="flex justify-center my-4">
+        <div className="flex justify-center my-4 w-[60%] mx-auto">
           <img src={img} alt="" />
         </div>
-        <p className="lg:max-w-[50%] mx-auto my-4 text-xl">{description}</p>
+        <p className="my-4 mx-[20%] text-xl text-left">{description}</p>
         {gh_link ? (
           <a
             href={gh_link ? gh_link : location.pathname}
@@ -49,13 +49,13 @@ const ProjectPage: FC = () => {
           >
             Ссылка на GitHub
           </a>
-        ) : (
-          ""
-        )}
+        ) : null}
         <br />
-        <a href={live_link} className="text-blue-500 hover:underline">
-          Ссылка для просмотра
-        </a>
+        {live_link ? (
+          <a href={live_link} className="text-blue-500 hover:underline">
+            Ссылка для просмотра
+          </a>
+        ) : null}
       </div>
     </>
   );
