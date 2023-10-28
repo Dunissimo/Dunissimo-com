@@ -4,6 +4,7 @@ import { Link } from "react-router-dom";
 import gh from "../../assets/logo/gh.svg";
 import tg from "../../assets/logo/tg.svg";
 import vk from "../../assets/logo/vk.svg";
+import lk from "../../assets/logo/lk.svg";
 
 const Header: FC = () => {
   return (
@@ -59,6 +60,17 @@ const Header: FC = () => {
                   title="Мой вк"
                   src={vk}
                   alt="Мой вк"
+                />
+              </Link>
+            </li>
+            <li>
+              <Link to="https://www.linkedin.com/in/dunissimo/" target="_blank">
+                <img
+                  className="transition-all hover:scale-105"
+                  width={35}
+                  title="Мой LinkedIn"
+                  src={lk}
+                  alt="Мой LinkedIn"
                 />
               </Link>
             </li>
