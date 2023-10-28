@@ -13,7 +13,7 @@
     {
       "id": 2,
       "name": "Сайт Компании Cuda",
-      "description": "Первые начинания в вёрстке. Использовал нативный JS + HTML и SCSS. Сайт адаптивен и на мобильных устройствах смотрися приемлемо",
+      "description": "Первые начинания в вёрстке. Использовал нативный JS + HTML и SCSS. Сайт адаптивен и на мобильных устройствах смотрится приемлемо",
       "img": "cuda.png",
       "gh_link": "https://github.com/Dunissimo/check/tree/main",
       "live_link": "https://check-16kk.onrender.com",
