@@ -14,7 +14,7 @@ const Header: FC = () => {
           Dunissimo
         </h1>
 
-        <div className="w-[85%] desktop-menu mx-auto mt-[3px] flex items-center justify-between text-lg">
+        <div className="w-[85%] desktop-menu mx-auto mt-[3px] flex flex-col md:flex-row gap-4 md:gap-0 items-center justify-between text-lg">
           <nav>
             <ul className="flex gap-4">
               <li className="list-none text-white hover:text-gray-400">

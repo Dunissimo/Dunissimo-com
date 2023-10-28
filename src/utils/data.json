@@ -82,7 +82,7 @@
     },
     {
       "id": 9,
-      "name": "TODO со сменой темы и изменением порядка записей",
+      "name": "TODO (смена темы и Drag'n'Drop)",
       "description": "Изначально этот сайт был просто практикой. Но в итоге я взял его для проекта для колледжа. Стандартный список дел, но со сменой темы и реализованным Drag n Drop. Макет и ТЗ взял с сайта Frontend Mentor.",
       "img": "todovite.png",
       "gh_link": "https://github.com/Dunissimo/todoList-vite-react-ts/tree/main",
