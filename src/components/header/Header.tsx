@@ -52,7 +52,7 @@ const Header: FC = () => {
             </li>
 
             <li>
-              <Link to="https://vk.com/junior_frontend" target="_blank">
+              <Link to="https://vk.com/frontend_react" target="_blank">
                 <img
                   className="transition-all hover:scale-105"
                   width={35}
